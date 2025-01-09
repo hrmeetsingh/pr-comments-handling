@@ -1,0 +1,13 @@
+{
+    "issue": {
+      "number": 1,
+      "pull_request": {},
+      "comments": 6
+    },
+    "repository": {
+      "owner": {
+        "login": "test-owner"
+      },
+      "name": "test-repo"
+    }
+  }
