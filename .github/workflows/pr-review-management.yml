@@ -24,6 +24,11 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install dependencies
+        run: |
+          npm init -y
+          npm install axios
+
       - name: Get PR Details and Comments
         id: pr-details
         uses: actions/github-script@v7
