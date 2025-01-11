@@ -7,9 +7,13 @@ on:
     types: [created]
   pull_request:
     types: [opened]
+  workflow_dispatch:
 
 jobs:
   manage-reviews:
+    permissions:
+      issues: write
+      pull-requests: write
     runs-on: ubuntu-latest
     
     steps:
